@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <div class="jumbotron mt-5">
+        <h1 class="display-4 white-text">Welcome to the Donation App!</h1>
+        <p class="lead white-text">Make a difference by donating to those in need.</p>
+        <hr class="my-4">
+        
+        <p class="white-text">Click the button below to make a donation.</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="{{ url_for('donate') }}" role="button">Donate Now</a>
+            
+            <a class="btn btn-secondary btn-lg" href="{{ url_for('register') }}" role="button">Register</a>
+        </p> 
+    </div>
+
+    <!-- Add the parallax effect here -->
+    <div class="parallax"></div>
+
+    <!-- Add more content after the parallax effect if needed -->
+    <section>
+        <!-- Your content after the parallax effect -->
+    </section>
+{% endblock %}
+

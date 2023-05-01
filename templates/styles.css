@@ -1,0 +1,13 @@
+body {
+  font-family: 'Arial', sans-serif;
+  padding-top: 20px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  font-size: 1.1rem;
+}
+
